@@ -1,0 +1,122 @@
+/*---------------------------------
+		STAFF & BOARD PAGES  
+-----------------------------------*/
+#people{padding-right:0;}	
+ul#staff{
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul#staff li{
+    float: left;
+    height: 220px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    width: 226px;
+}
+ul#staff li a{
+    color: #666;
+    float: left;
+    height: 100%;
+    text-decoration: none;
+    width: 100%;
+}
+ul#staff li a:hover{
+    color: #333;
+	
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;	
+}	
+.person .thumb {
+	height: 140px;
+	overflow: hidden;
+	width: 100%;
+}
+.person p.name{    
+    font-size: 0.9em;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+.person p.title{
+	font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+}
+
+div.personbig{position:relative;width:1000px;}
+div.personbig a{opacity:1;text-decoration:none;}
+header.personheader{}
+a.personclose{
+    color: #ddd;
+    float: right;
+    font-size: 16px;
+    margin-right: 10px;	
+    padding: 10px;
+}
+a.personclose:hover{
+	color:#E51E27;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+section.personbody{
+	background-color:#eee;
+	float:left;
+    padding: 40px 20px;}
+article.persondetails{
+	float:left;
+	width:50%;
+}
+article div.personthumb{
+    height: 270px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding-right: 30px;
+}
+article.persondetails h3{text-transform: uppercase;}
+article.persondetails h4{margin-bottom: 15px;}
+
+a.personemail {
+    color: #000000;
+    font-size: 10px;
+    font-weight: bold;
+}
+a.personemail i{margin-right: 10px;}
+a.personemail span{}
+article.personbio{
+    float: left;
+    height: 400px;
+    overflow: auto;
+    width: 50%;
+}
+article.personbio p{margin: 0;padding-right: 20px;}
+nav.personnav{
+background-color:#fff;
+float:left;
+width:100%;
+}
+nav.personnav a{
+    color: #DDDDDD;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 15px 10px 10px;
+}
+nav.personnav a.personPrev{float:left;margin-left: 10px;}
+nav.personnav a.personNext{
+    float: right;
+    margin-right: 10px;
+}
+nav.personnav a:hover{
+	color:#666;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}

@@ -1,0 +1,16 @@
+img,
+embed,
+object,
+video {
+    height: auto;
+	width: 100%;
+}
+
+.fancybox-overlay {
+background: transparent;
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF,endColorstr=#CCFFFFFF)"; /* IE8 */    
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#CCFFFFFF,endColorstr=#CCFFFFFF);   /* IE6 & 7 */      
+zoom: 1;
+}
+
+

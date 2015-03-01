@@ -1,0 +1,12 @@
+ul#helpful_links{
+list-style:none;
+margin:0;
+padding:0;
+}
+
+ul#helpful_links li{
+    background: #CCCCCC;
+    float: left;
+    margin: 0 0 20px;
+    width: 100%;
+}

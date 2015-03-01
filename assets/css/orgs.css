@@ -1,0 +1,67 @@
+/*---------------------------------
+		PARTNER PAGE  
+-----------------------------------*/
+#partners{}
+#partners div.slides-container > div {padding:20px 0 20px 20px;}
+ul#funders{
+list-style:none;
+margin: 0;
+padding: 0;
+}
+ul#funders li{
+/*    float: left;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    width: 45.75%;*/
+    display: inline-block;
+    float: left;
+    height: 130px;
+    overflow: hidden;
+    width: 33.33%;	
+}
+ul#funders li a{	
+/*    background: #F5F5F5;
+    color: #666666;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    text-decoration: none;
+    width: 100%;*/
+    background:#F5F5F5;
+    color: #666666;
+    display: block;
+    height: 90%;
+    margin: 0 10% 10% 0;
+    overflow: hidden;
+    text-decoration: none;
+    width: 90%;	
+}
+	ul#funders li a:hover{
+	background:#eee;
+    color: #333;
+	
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;	
+}	
+li.funder .thumb {
+    height: 226px;
+    overflow: hidden;
+	width: 100%;
+}
+li.funder p{line-height: 1;margin: 0;}    
+li.funder p.name{    
+    font-size: 0.9em;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+.funder p.title{
+	font-size: 12px;
+    font-weight: normal;
+    line-height: 18px;
+}

@@ -1,0 +1,25 @@
+/* =============================================================================
+   PROGRAM CONTACT FORM 
+   ========================================================================== */
+div.program_contact{
+    background-color: #fff;
+    padding: 20px;
+	position:relative;
+}
+a.customfancyclose{
+    color: #DDDDDD;
+    float: right;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+a.customfancyclose:hover{
+	color:#E51E27;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
